@@ -36,3 +36,16 @@ print(f'A: {count_A}/{total} = {(count_A/total)*100:.2f}%')
 # Count and print percentage of Cytosine (C)
 count_C = args.seq.count('C')
 print(f'C: {count_C}/{total} = {(count_C/total)*100:.2f}%')
+
+# Count and print percentage of Guanine (G)
+count_G = args.seq.count('G')
+print(f'G: {count_G}/{total} = {(count_G/total)*100:.2f}%')
+
+# Count and print percentage of Thymine (T)
+count_T = args.seq.count('T')
+print(f'T: {count_T}/{total} = {(count_T/total)*100:.2f}%')
+
+# Count and print percentage of Uracil (U)
+count_U = args.seq.count('U')
+print(f'U: {count_U}/{total} = {(count_U/total)*100:.2f}%')
+
